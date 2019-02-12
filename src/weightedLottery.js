@@ -7,3 +7,9 @@ export const weightedLottery = weights => {
     }
     return(choices[Math.floor(Math.random() * choices.length)])
   }
+
+  
+export const weights = {
+  red: 3,
+  green: 5
+}
